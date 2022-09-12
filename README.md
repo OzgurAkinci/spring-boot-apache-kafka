@@ -1,4 +1,4 @@
-#### Spring and Apache Kafka with Kafka-UI
+#### Spring and Apache Kafka & Kafka-UI
 ```
 docker-compose up -d
 
