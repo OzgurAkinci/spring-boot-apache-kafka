@@ -1,4 +1,4 @@
-#### spring and apache kafka with kafka-ui
+#### Spring and Apache Kafka with Kafka-UI
 ```
 docker-compose up -d
 
@@ -8,4 +8,6 @@ Kafka-UI: http://localhost:9000/
 Zookeper Port: 2181
 Kafka Bootstrap Server: localhost:29092
 ```
+
+#### Kafka-UI
 ![Screenshot](https://github.com/OzgurAkinci/spring-boot-apache-kafka/blob/main/apache_kafka.png?raw=true)
