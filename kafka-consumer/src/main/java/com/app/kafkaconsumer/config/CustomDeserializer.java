@@ -20,7 +20,7 @@ public class CustomDeserializer implements Deserializer<MessageDto> {
     public MessageDto deserialize(String topic, byte[] data) {
         try {
             if (data == null){
-                System.out.println("Null received at deserializing");
+                System.out.println("Null received at deserializing..");
                 return null;
             }
             System.out.println("Deserializing...");
