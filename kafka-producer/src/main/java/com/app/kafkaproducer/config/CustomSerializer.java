@@ -20,7 +20,7 @@ public class CustomSerializer implements Serializer<MessageDto> {
     public byte[] serialize(String topic, MessageDto data) {
         try {
             if (data == null){
-                System.out.println("Null received at serializing");
+                System.out.println("Null received at serializing...");
                 return null;
             }
             System.out.println("Serializing...");
