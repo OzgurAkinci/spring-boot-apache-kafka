@@ -23,7 +23,6 @@ public class CustomDeserializer implements Deserializer<MessageDto> {
                 System.out.println("Null received at deserializing..");
                 return null;
             }
-            System.out.println("Deserializing...");
             return objectMapper.readValue(new String(data, "UTF-8"), MessageDto.class);
         } catch (Exception e) {
             throw new SerializationException("Error when deserializing byte[] to MessageDto");
